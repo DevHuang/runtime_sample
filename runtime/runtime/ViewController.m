@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NSObject+Property.h"
 @interface ViewController ()
 
 @end
@@ -36,11 +36,22 @@
      
      */
     
+    /**
+     交换方法的实现
+     */
     //本地有图的情况
     [self ex_changeImageNamed:@"shop_Icon"];
     //本地无图的情况
-    [self ex_changeImageNamed:@"shop"];
+    //[self ex_changeImageNamed:@"shop"];
 
+    /**
+     动态添加属性
+     */
+    NSObject *obj = [[NSObject alloc]init];
+    obj.type = @"我是动态添加的属性";
+    NSLog(@"runtime 动态添加属性 %@",obj.type);
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 //动态交换两个方法的实现
