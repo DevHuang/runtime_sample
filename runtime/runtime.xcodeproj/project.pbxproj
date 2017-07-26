@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BF8388D1F28704200D58F04 /* NSObject+DictToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8388C1F28704200D58F04 /* NSObject+DictToModel.m */; };
+		3BF838901F28764800D58F04 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8388F1F28764800D58F04 /* TestModel.m */; };
+		3BF838931F28810900D58F04 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF838921F28810900D58F04 /* FoodModel.m */; };
 		3BFB31D01F2834AE00491897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB31CF1F2834AE00491897 /* main.m */; };
 		3BFB31D31F2834AE00491897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB31D21F2834AE00491897 /* AppDelegate.m */; };
 		3BFB31D61F2834AE00491897 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB31D51F2834AE00491897 /* ViewController.m */; };
@@ -18,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BF8388B1F28704200D58F04 /* NSObject+DictToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DictToModel.h"; sourceTree = "<group>"; };
+		3BF8388C1F28704200D58F04 /* NSObject+DictToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DictToModel.m"; sourceTree = "<group>"; };
+		3BF8388E1F28764800D58F04 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		3BF8388F1F28764800D58F04 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		3BF838911F28810900D58F04 /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		3BF838921F28810900D58F04 /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
 		3BFB31CB1F2834AD00491897 /* runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFB31CF1F2834AE00491897 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BFB31D11F2834AE00491897 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +82,12 @@
 				3BFB31DC1F2834AE00491897 /* LaunchScreen.storyboard */,
 				3BFB31DF1F2834AE00491897 /* Info.plist */,
 				3BFB31CE1F2834AD00491897 /* Supporting Files */,
+				3BF8388B1F28704200D58F04 /* NSObject+DictToModel.h */,
+				3BF8388C1F28704200D58F04 /* NSObject+DictToModel.m */,
+				3BF8388E1F28764800D58F04 /* TestModel.h */,
+				3BF8388F1F28764800D58F04 /* TestModel.m */,
+				3BF838911F28810900D58F04 /* FoodModel.h */,
+				3BF838921F28810900D58F04 /* FoodModel.m */,
 			);
 			path = runtime;
 			sourceTree = "<group>";
@@ -162,9 +177,12 @@
 			files = (
 				3BFB31D61F2834AE00491897 /* ViewController.m in Sources */,
 				3BFB31EA1F2834EE00491897 /* UIImage+Image.m in Sources */,
+				3BF8388D1F28704200D58F04 /* NSObject+DictToModel.m in Sources */,
 				3BFB31D31F2834AE00491897 /* AppDelegate.m in Sources */,
 				3BFB31E91F2834EE00491897 /* NSObject+Property.m in Sources */,
+				3BF838901F28764800D58F04 /* TestModel.m in Sources */,
 				3BFB31D01F2834AE00491897 /* main.m in Sources */,
+				3BF838931F28810900D58F04 /* FoodModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +339,7 @@
 				3BFB31E41F2834AE00491897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
